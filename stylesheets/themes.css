@@ -1,0 +1,141 @@
+body {
+  background-color: black;
+  line-height: 20px;
+  /* NOT WORKING CHECK BACK*/ }
+
+.fontOpenSans {
+  font-family: 'Open Sans', sans-serif; }
+
+.color-white {
+  color: white; }
+
+.greyfont {
+  color: #969696; }
+
+.fontsize-med {
+  font-size: 1.6rem; }
+
+.fontsize40px {
+  font-size: 30px; }
+
+.fontsize-sm {
+  font-size: 20px; }
+
+.padding-top-bottom-medium {
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
+
+.padding-top-med {
+  padding-top: 4rem; }
+
+.padding-bottom-small {
+  padding-bottom: 2rem; }
+
+.padding-top-small {
+  padding-top: 2rem; }
+
+.logo {
+  width: 100%;
+  margin-right: 0; }
+
+.articleTitle {
+  display: none; }
+
+.dropdown {
+  padding-bottom: 4rem; }
+
+#selectDropdown {
+  width: 10rem; }
+
+.chooseText {
+  width: 100%; }
+
+.singlenews a {
+  color: white;
+  text-decoration: none; }
+
+.singlenews {
+  position: relative;
+  width: 100%;
+  min-height: 45vh;
+  background-size: cover;
+  background-position: center; }
+
+.abstract {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  position: absolute;
+  bottom: 0rem;
+  width: 100%;
+  line-height: 1.5rem;
+  width: inherit;
+  padding: 0.5rem; }
+
+.flex {
+  display: flex; }
+
+.flex-direction-column {
+  flex-direction: column; }
+
+.flex-direction-columnreverse {
+  flex-direction: column-reverse; }
+
+.text-align-center {
+  text-align: center; }
+
+.justify-content-center {
+  justify-content: center; }
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+  .nytLogoTablet {
+    width: 25%; }
+  .dropdownTablet {
+    padding-bottom: 0rem; }
+  .flexTablet {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+  .singlenews {
+    width: 33%;
+    min-height: 55vh;
+    position: relative;
+    background-size: cover;
+    background-position: center; }
+  #newsblock {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+  .minified img {
+    height: 15vh;
+    width: 50%; }
+  .minified {
+    height: 20vh; } }
+
+@media only screen and (min-width: 1000px) {
+  .nytLogoDesktop {
+    width: 15%; }
+  .dropdownTablet {
+    padding-bottom: 0rem; }
+  .flexChoose {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+  .dropdownMenu {
+    justify-content: flex-start;
+    height: 100vh; }
+  .singlenews {
+    width: 25%;
+    min-height: 65vh;
+    position: relative;
+    background-size: cover;
+    background-position: center; }
+  #newsblock {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+  .minified img {
+    height: 15vh;
+    width: 50%; }
+  .minified {
+    height: 20vh; } }

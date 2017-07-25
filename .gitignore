@@ -1,0 +1,5 @@
+.DS_Store
+testscript.js
+*.ttf
+/node_modules/**
+assets/mocks/
